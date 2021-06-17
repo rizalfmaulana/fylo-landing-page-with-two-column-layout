@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+
+:root {
+  --LightGray: hsl(0, 0%, 75%);
+  --DesaturatedBlue: hsl(238, 22%, 44%);
+  --VeryDarkBlue: hsl(243, 87%, 12%);
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700 !important;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.row .bot {
+  width: 15%;
+  display: block;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: var(--VeryDarkBlue);
+}
+
+.logo {
+  width: 100%;
+}
+
+.productive {
+  background-color: #f9f8ff;
+}
+
+.links {
+  color: hsl(170, 45%, 43%);
+}
+
+.access {
+  background-color: var(--DesaturatedBlue);
+  padding: 70px 0;
+  color: white;
+}
+
+.footer {
+  background-color: var(--VeryDarkBlue);
+  color: white;
+  padding: 70px 0;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  text-decoration: none;
+}
+
+.sosmed {
+  display: flex;
+}
+.sosmed li {
+  display: block;
+  margin-right: 10px;
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.sosmed li:hover {
+  color: var(--DesaturatedBlue);
+  border: 1px solid var(--DesaturatedBlue);
+}
+
+.lin li a {
+  color: white;
+  text-decoration: none;
+}
+
+.lin li a:hover {
+  color: var(--DesaturatedBlue);
+}
+
+@media (max-width: 576px) {
+  .btn {
+    width: 100%;
+  }
+
+  .logo {
+    width: 60%;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: row !important;
+  }
+
+  .nav-item {
+    margin-right: 5px;
+  }
+
+  .files {
+    text-align: center;
+  }
+
+  .productive h2 {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .productive a {
+    text-align: center;
+  }
+
+  .footer {
+    padding: 50px 20px;
+  }
+
+  .row .bot {
+    width: 70%;
+  }
+}
